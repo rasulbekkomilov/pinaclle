@@ -4,26 +4,8 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-ol,
-li {
-  list-style-type: none;
-}
-
-:roo
-
-t {
+:root {
   font-size: 62.5%;
-}
-
-button {
-  background-color: transparent;
-  border: none;
 }
 
 html,
@@ -32,13 +14,153 @@ body {
   height: 100%;
 }
 
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
 .main-container {
   position: relative;
   max-width: 100%;
   width: 144rem;
-  background-color: gray;
   margin: 0 auto;
-  padding: 0rem 6.4rem;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi/Satoshi-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/satoshi/Satoshi-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../fonts/satoshi/Satoshi-Bold.otf") format("opentype");
+}
+.btn-gray {
+  background-color: #2C2C2C;
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+  color: white;
+}
+
+.btn-orange {
+  background-color: #FF5200;
+  color: #fff;
+  font-family: "Satoshi-Medium";
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+}
+
+nav.navbar {
+  width: 100%;
+  padding: 2.4rem 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #020100;
+}
+nav.navbar .navbar-logo {
+  width: 13.8rem;
+  height: 3rem;
+}
+nav.navbar .navbar-navigation {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav.navbar .navbar-navigation__item .navigation-item__link {
+  font-family: "Satoshi-Medium";
+  font-size: 1.6rem;
+  color: #fff;
+}
+nav.navbar .navbar-contact__item .contact-item__link {
+  font-size: 1.6rem;
+  font-family: "Satoshi-Medium";
+  padding: 1.6rem 2.4rem;
+  border-radius: 0.8rem;
+}
+
+header.header {
+  display: flex;
+}
+header.header .header-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+header.header .header-content__title {
+  font-family: "Satoshi-Bold";
+  font-size: 7.3rem;
+  margin-top: 26.8rem;
+}
+header.header .header-content__subtitle {
+  margin-top: 2.4rem;
+  font-family: "Satoshi";
+  font-size: 2rem;
+  line-height: 160%;
+  max-width: 68rem;
+}
+header.header .header-content__buttons {
+  margin-top: 7.2rem;
+  display: flex;
+  gap: 3.2rem;
+}
+header.header .header-content__buttons .content-buttons__1 {
+  text-transform: capitalize;
+  font-family: "Satoshi-Medium";
+  font-size: 1.6rem;
+}
+header.header .header-content__buttons .content-buttons__2 {
+  text-transform: capitalize;
+  font-family: "Satoshi-Medium";
+  font-size: 1.6rem;
+}
+header.header .header-image {
+  width: 50%;
+}
+header.header .header-image__img {
+  width: 70.3rem;
+  z-index: 1;
+}
+
+section.comunicates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  margin-top: -19rem;
+  padding-top: 20rem;
+  background-color: #FF5200;
+  z-index: 100;
+}
+section.comunicates .comunicates-title {
+  text-align: center;
+  font-size: 9.2rem;
+  font-family: "Satoshi-Bold";
+  color: #fff;
+  max-width: 78.9rem;
+}
+section.comunicates .comunicates-subtitle {
+  text-align: center;
+  max-width: 78.9rem;
+  font-size: 1.8rem;
+  color: white;
+  font-family: "Satoshi";
 }
 
 /*# sourceMappingURL=main.css.map */
