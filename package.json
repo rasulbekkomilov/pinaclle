@@ -1,0 +1,19 @@
+{
+  "name": "pinaclle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devServer": "cd ./ && live-server --host=localhost --port=2007 --entry-file=index.html",
+    "sass": "sass sass/main.scss public/css/main.css -w",
+    "pug": "pug -P pug/index.pug -o ./ -w",
+    "start": "npm-run-all --parallel pug sass devServer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.85.1"
+  }
+}
