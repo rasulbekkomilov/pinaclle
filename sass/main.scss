@@ -1,0 +1,22 @@
+// function & mixins & variables
+@use "./abstracts/variables.scss";
+@use "./abstracts/mixins";
+@use "./abstracts/functions";
+
+// reset & typography & color & utilities
+@use "./base/reset";
+@use "./base/typography";
+@use "./base/utilities";
+
+// buttons & cards & carousel & clients 
+@use "./components/buttons";
+@use "./components/cards";
+@use "./components/carousel";
+
+// site layout
+@use "./layout/navbar";
+@use "./layout/header";
+@use "./layout/comunicates";
+@use "./layout/projects";
+@use "./layout/services";
+@use "./layout/comments";

@@ -1,0 +1,102 @@
+// project cards
+.projects-cards {
+   margin-top: 7.2rem;
+   display: flex;
+   gap: 1.6rem;
+
+   .project-card {
+      position: relative;
+      border-radius: 16px;
+      border: 1px solid #af9b86;
+      padding: 2.4rem;
+      max-width: 42.6rem;
+      height: 66rem;
+
+      &__img {
+         img {
+            max-width: 37.8rem;
+
+         }
+      }
+
+      &__info {
+         margin-top: 3.2rem;
+
+         .card-title {
+            color: #F0F0F0;
+            font-size: 2.4rem;
+            font-family: 'Satoshi-Medium';
+         }
+
+         .card-subtitle {
+            color: #C0C0BF;
+            margin-top: .8rem;
+            font-size: 1.6rem;
+            font-family: 'Satoshi';
+         }
+
+         .card-location {
+            display: flex;
+            font-size: 1.4rem;
+            color: #8D8D8C;
+            margin-top: 2.4rem;
+            gap: .5rem;
+            font-family: 'Satoshi';
+            margin-bottom: 1.4rem;
+         }
+      }
+
+      .card-btn {
+         position: absolute;
+         font-size: 1.2rem;
+         font-family: 'Satoshi';
+         display: block;
+      }
+
+      .other-cards-btn {
+         text-align: center;
+         width: 100%;
+         margin-top: 8rem;
+         display: block;
+         font-family: 'Satoshi-Bold';
+         font-size: 1.6rem;
+      }
+   }
+}
+
+
+// services cards
+
+.services-cards {
+   display: flex;
+   gap: 1.6rem;
+
+   .services-card {
+      padding: 2.4rem;
+      border-radius: 16px;
+      border: 1px solid #282726;
+
+      &__title {
+         font-family: 'Clash Display';
+         font-size: 2.4rem;
+         color: #fff;
+         margin-top: 3.2rem;
+      }
+
+      &__subtitle {
+         margin-top: 6px;
+         font-size: 1.6rem;
+         font-family: 'Satoshi';
+         color: #fff;
+      }
+
+      &__btn {
+         font-size: 1.4rem;
+         font-family: 'Satoshi';
+         font-weight: 700;
+         color: #fff;
+         margin-top: 1rem;
+         display: block;
+      }
+   }
+}

@@ -1,0 +1,32 @@
+section.comments {
+   background-color: #000;
+
+   .comments-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 8.8rem;
+
+
+      &__title {
+         color: #fff;
+         font-size: 5.9rem;
+         font-family: 'Clash Display';
+         display: flex;
+         align-items: center;
+      }
+
+      &__subtitle {
+         color: #fff;
+         font-size: 1.8rem;
+         font-family: 'Satoshi';
+         max-width: 67.6rem;
+      }
+   }
+
+   .comments-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+}

@@ -1,0 +1,37 @@
+section.projects {
+   padding-top: 40rem;
+   padding-bottom: 8.8rem;
+   background-color: black;
+
+   .projects-informartions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .projects-info {
+         &__title {
+            font-family: 'Clash Display';
+            font-size: 5.9rem;
+            color: #fff;
+         }
+
+         &__subtitle {
+            font-size: 1.8rem;
+            font-family: 'Satoshi';
+            color: #fff;
+            max-width: 79.6rem;
+         }
+      }
+
+      .projects-button {
+         height: 4rem;
+         align-self: flex-end;
+         float: right;
+
+         &__btn {
+            font-size: 1.6rem;
+            font-family: 'Satoshi-Medium';
+         }
+      }
+   }
+}

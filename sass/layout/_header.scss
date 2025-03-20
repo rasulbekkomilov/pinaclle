@@ -1,0 +1,50 @@
+header.header {
+   display: flex;
+
+   .header-content {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      &__title {
+         font-family: 'Satoshi-Bold';
+         font-size: 7.3rem;
+         margin-top: 26.8rem;
+      }
+
+      &__subtitle {
+         margin-top: 2.4rem;
+         font-family: 'Satoshi';
+         font-size: 2rem;
+         line-height: 160%;
+         max-width: 68rem;
+      }
+
+      &__buttons {
+         margin-top: 7.2rem;
+         display: flex;
+         gap: 3.2rem;
+
+         .content-buttons__1 {
+            text-transform: capitalize;
+            font-family: 'Satoshi-Medium';
+            font-size: 1.6rem;
+         }
+
+         .content-buttons__2 {
+            text-transform: capitalize;
+            font-family: 'Satoshi-Medium';
+            font-size: 1.6rem;
+         }
+      }
+   }
+
+   .header-image {
+      width: 50%;
+
+      &__img {
+         width: 70.3rem;
+         z-index: 1;
+      }
+   }
+}
