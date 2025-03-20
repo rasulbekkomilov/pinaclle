@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "devServer": "cd ./ && live-server --host=localhost --port=2007 --entry-file=index.html",
-    "sass": "sass sass/main.scss public/css/main.css -w",
-    "pug": "pug -P pug/index.pug -o ./ -w",
+    "sass": "sass src/sass/main.scss public/css/main.css -w",
+    "pug": "pug -P src/pug/index.pug -o ./ -w",
     "start": "npm-run-all --parallel pug sass devServer"
   },
   "keywords": [],
